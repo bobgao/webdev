@@ -1,120 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>list</title>    
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link href="frontend.css?v=1.0" rel="stylesheet">    
+<meta charset="utf-8">
+<title>list</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link href="frontend.css?v=1.0" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="这是沈阳局的培训页面">
+<meta name="keywords" content="web,开发,html">
+<meta name="author" content="gaobo">
+
+<!--[if lte IE 9]>
+  	<script language="javascript">
+          alert("由于安全及性能原因，本系统对于IE6,7,8,9不完全支持。请使用Chrome或者IE高版本浏览器。");
+  	</script>
+  <![endif]-->
 </head>
 
 <body>
-<div style="z-index: 9999; position: fixed ! important; left: 0px; top: 0px;right:0px;">
+	<div
+		style="z-index: 9999; position: fixed ! important; left: 0px; top: 0px; right: 0px;">
 
-<p class="h1" href="#"style="color:white;font-size:35px;font-family:'微软雅黑'">&nbsp;&nbsp;商品管理系统</p>  
+		<p class="h1" href="#"
+			style="color: white; font-size: 35px; font-family: '微软雅黑'">&nbsp;&nbsp;设备管理系统</p>
 
-</div>
+	</div>
 
-<div class="subnav subnav-fixed-top" id="sub">  
-    <ul class="nav nav-pills" style="margin:5px 0px;">
-    
-        <li ><a href="list.html">书籍</a></li>         
-         <li ><a href="##">数码电器</a></li>           
-         <li><a href="##">食品</a></li>          
-         <li><a href="##">日用百货</a></li>  
-    
+	<div class="subnav subnav-fixed-top" id="sub">
+		<ul class="nav nav-pills" style="margin: 5px 0px;">
 
-    
-    </ul>
-</div>
-
-<div class="container-fluid" style="min-height:600px; padding: 0 10px;">
-    <div style="position:relative">
-        <div style="width: 170px; position:fixed; left: 10px;">
-            
-    <div class="well sidebar-nav">
-        <ul class="nav nav-list">
-            <li class="nav-header"><strong>书籍种类</strong></li>
-            <li><a href="list.html">中国文学</a></li>
-            <li><a href="#">外国文学</a></li>
-        </ul>
-    </div>
-</div>
+			<li><a href="list.html">书籍</a></li>
+			<li><a href="##">数码电器</a></li>
+			<li><a href="##">食品</a></li>
+			<li><a href="##">日用百货</a></li>
 
 
 
-        <div style="padding-left: 180px;">
-          <div class="well" style='margin:auto;'>
-    <form action="" method="get" class='well form-inline text-center'>
-        
-        
-      <div class="row clearfloat" style="margin:0;">
-        
-        <div class="col-md-12" >
-                  书籍名称：<input name="book" type="text"  />
-                   作者 ：<input name="book" type="text"  />
-                    价格 ：<input name="book" type="text"  />
-         <input type="submit" class='.btn-default ' value="   查询   " />
-        </div>
-        
-        </div>
-       
-    </div>  
-        
-        
-    </form>
-            		<table class="table table-bordered">
-					    <tr>
-					      <th>书籍名</th>
-					      <th>书籍作者</th>
-					      <th>价格(元)</th>
-					      <th>操作</th>
-					    </tr>
-					    <tr>
-					      <td>西游记</td>
-					      <td>吴承恩</td>
-					      <td>49.9</td>
-					      <td>
-					      <a href="view.html">查看</a>
-					   <a href="update.html">编辑</a> 
-					     </td>
-					    </tr>
-					    <tr>
-					      <td>三国演义</td>
-					      <td>罗贯中</td>
-					      <td>49.9</td>
-					      <td>
-					     <a href="view.html">查看</a>
-					   <a href="update.html">编辑</a> 
-					     </td>
-					    </tr>
-					    <tr>
-					      <td>水浒传</td>
-					      <td>施耐庵</td>
-					      <td>49.9</td>
-					      <td>
-					      <a href="view.html">查看</a>
-					   <a href="update.html">编辑</a> 
-					     </td>
-					    </tr>
-					    <tr>
-					      <td>红楼梦</td>
-					      <td>曹雪芹</td>
-					      <td>49.9</td>
-					      <td>
-					      <a href="view.html">查看</a>
-					   <a href="update.html">编辑</a>  
-					     </td>
-					    </tr>
-			</table>
-           <div class="btn-toolbar">
-        <div class="tac"> </div>
-    </div>
-</div>
-        </div>
-    </div><hr>
-    <footer align="center" class="text-center">
-        <p>&copy; {{copyright}}</p>
-    </footer>
-</div>
+		</ul>
+	</div>
+
+	<div class="container-fluid"
+		style="min-height: 600px; padding: 0 10px;">
+		<div style="position: relative">
+			<div style="width: 170px; position: fixed; left: 10px;">
+
+				<div class="well sidebar-nav">
+					<ul class="nav nav-list">
+						<li class="nav-header"><strong>书籍种类</strong></li>
+						<li><a href="list.html">中国文学</a></li>
+						<li><a href="#">外国文学</a></li>
+					</ul>
+				</div>
+			</div>
+
+
+
+			<div style="padding-left: 180px;">
+				<div class="well" style='margin: auto;'>
+					<form action="" method="get" class='well form-inline text-center'>
+
+
+						<div class="row clearfloat" style="margin: 0;">
+
+							<div class="col-md-12">
+								书籍名称：<input name="book" type="text" /> 作者 ：<input name="book"
+									type="text" /> 价格 ：<input name="book" type="text" /> <input
+									type="submit" class='.btn-default ' value="   查询   " />
+							</div>
+
+						</div>
+				</div>
+
+
+				</form>
+				<table class="table table-bordered">
+					<tr>
+						<th>书籍名</th>
+						<th>书籍作者</th>
+						<th>价格(元)</th>
+						<th>操作</th>
+					</tr>
+					<tr>
+						<td>西游记</td>
+						<td>吴承恩</td>
+						<td>49.9</td>
+						<td><a href="view.html">查看</a> <a href="update.html">编辑</a></td>
+					</tr>
+					<tr>
+						<td>三国演义</td>
+						<td>罗贯中</td>
+						<td>49.9</td>
+						<td><a href="view.html">查看</a> <a href="update.html">编辑</a></td>
+					</tr>
+					<tr>
+						<td>水浒传</td>
+						<td>施耐庵</td>
+						<td>49.9</td>
+						<td><a href="view.html">查看</a> <a href="update.html">编辑</a></td>
+					</tr>
+					<tr>
+						<td>红楼梦</td>
+						<td>曹雪芹</td>
+						<td>49.9</td>
+						<td><a href="view.html">查看</a> <a href="update.html">编辑</a></td>
+					</tr>
+				</table>
+				<div class="btn-toolbar">
+					<div class="tac"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr>
+	<footer align="center" class="text-center">
+		<p>&copy; {{copyright}}</p>
+	</footer>
+	</div>
 </body>
 </html>

@@ -1,0 +1,52 @@
+@charset "UTF-8";
+html body {
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto; /* 上下为0 左右auto*/
+    text-align: center;
+    height: 100%;
+    background-color: #FF3333;
+    font-size: 300px;
+    min-width: 2.5em;
+    max-width: 6em;
+}
+
+.content * {
+    display: inline;
+}
+
+.content .primary {
+    width: 70%;
+    float: left;
+    display: inline;
+    background-color: #0099FF;
+}
+
+.content .secondary {
+    width: 30%;
+    float: right;
+    display: inline;
+    background-color: #33FF66;
+}
+
+.content .primary .line1 {
+    width: 65%;
+    float: left;
+    display: inline;
+    background-color: #FFFF99;
+}
+
+.content .primary .line2 {
+    width: 35%;
+    float: right;
+    display: inline;
+    background-color: #FF9999;
+}
+
+.clear {
+    clear: both;
+}
